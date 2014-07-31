@@ -264,8 +264,8 @@ public class Sudoku {
 						if (column % 3 == 0) {
 							System.out.print("  ");
 						}
-//						System.out.print(progress.get(point2).v1[line][column] + " ");
-						System.out.print((progress.get(point2).v1[line][column] == 0 ? " " : progress.get(point2).v1[line][column]) + " ");
+						System.out.print(progress.get(point2).v1[line][column] + " ");
+//						System.out.print((progress.get(point2).v1[line][column] == 0 ? " " : progress.get(point2).v1[line][column]) + " ");
 					}
 					
 					System.out.print(" |");
